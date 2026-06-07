@@ -104,13 +104,25 @@ Human Chimp Gorilla<img width="1000" height="600" alt="Figure_1" src="https://gi
 
 - **Newick 文本：** `(Gorilla:2.5000,(Human:1.0000,Chimp:1.0000):1.5000);`
 - **可视化图形：** 弹出 Matplotlib 渲染的系统发育树拓扑窗口。
+<img width="1000" height="600" alt="result1" src="https://github.com/user-attachments/assets/96943ea3-7ed2-4e05-8e1d-ec8e6ed43f21" />
 
 ---
 
 ## 5. 项目核心截图
-<img width="1000" height="600" alt="Figure_1" src="https://github.com/user-attachments/assets/b79daca7-9734-454f-9416-f61a0eb94523" />
+本项目通过多个模拟实验验证了 UPGMA 算法的有效性：
+
+- **测试用例1（灵长类模型）：** 成功还原了人与黑猩猩的姐妹群关系，验证了算法处理真实生物学数据的可靠性。
+<img width="1000" height="600" alt="result1" src="https://github.com/user-attachments/assets/1880b6ad-e9b5-4f4a-b573-936c6e0d9144" />
+
+- **测试用例4（外群模型）：** 通过引入高差异度物种，证明了程序在识别进化树根节点（Rooting）时的鲁棒性。
+<img width="1000" height="600" alt="resul4" src="https://github.com/user-attachments/assets/763beeb7-c595-4d3c-86a4-62ab32d3b78b" />
 
 
+- **测试用例5（科级分化模型）：** 准确划分了猫科与犬科两个独立簇，证明了算法在处理多层次分化结构时的逻辑准确性。
+<img width="1000" height="600" alt="resul5" src="https://github.com/user-attachments/assets/b525ad6f-17fa-4e45-b56a-33ee8a01373a" />
+
+- **测试用例7（精细演化模型）：** 验证了程序在处理极小遗传距离（如病毒亚种）时的数值精度。
+<img width="1000" height="600" alt="resul7" src="https://github.com/user-attachments/assets/0fed4539-6114-4f60-844d-bc3fd0523e7e" />
 
 ---
 
